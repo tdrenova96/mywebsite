@@ -1,0 +1,159 @@
+
+
+body {
+  
+  font-family: Arial, sans-serif;
+   background-image: url("dominik-schroder-FIKD9t5_5zQ-unsplash.jpg");
+  max-width: 1200px;	
+  margin: 0 auto;
+  padding: 20px;
+}
+ .topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+}
+
+.topnav a {
+  float: left;
+  color: rgb(255, 255, 255)
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #000000;
+  color: white;
+}
+header {
+   font-family: Georgia, serif;
+  text-align: center;
+  background-color:#e5202b;
+  color: #ffffff;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+}
+
+h1 {
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+  font-weight: normal;
+}
+
+section {
+  padding: 20px;
+}
+
+#about {
+  background-color: #fff;
+  box-shadow: 0 0 10px #999;
+  margin: 20px 0;
+}
+
+#services {
+  background-color: #fff;
+  box-shadow: 0 0 10px #999;
+  margin: 20px 0;
+}
+
+#contact {
+  background-color: #fff;
+  box-shadow: 0 0 10px #999;
+  margin: 20px 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 500px; /* change the value as needed */
+  width: 100%;
+}
+
+label, input, textarea {
+ position: right;
+  width: 100%;
+  max-width: 500px; /* change the value as needed */
+
+}
+
+label, input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+input[type="text"], textarea {
+  border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+  width: 100px;
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+#linkedin-logo {
+  width: 50px;
+  height: 50px;
+}
+
+#background-video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+}
